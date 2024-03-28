@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 전체틀 width */
+header.layout,
+section.layout,
+div.layout,
+footer.layout	{
+	min-width:1000px;
+	width:100%;
+	margin:0 auto;
+}
+
+header.layout {
+
+}
+header.subvisual {
+
+}
+
+.holder { width:1000px; height:0px; margin:0 auto; font-size:0; }
+
+/* 각각 배경이 필요한 경우 처리 */
+
+	/* body의 배경 */
+	body			{}
+
+	/* 각 위치의 width 100% 배경 */
+	.wrap-header	{ position:relative; width:100%; min-width:1100px; max-width:1919px; height:0px; margin:0 auto; }
+	.wrap-main		{}
+	.wrap-sub		{}
+	.wrap-content	{}
+	.wrap-content:after	{ content:""; clear:both; display:block; }
+	.wrap-footer	{ position:relative; width:100%; min-width:1100px; max-width:1919px; height:278px; margin:0 auto; background:#333333; }
+
+	/* 각 위치의 전체틀 width 배경 */
+	header.layout	{}
+	section.layout	{}
+	div.layout		{}
+	footer.layout	{ width:1100px; height:278px; position:relative; margin:0 auto; }
+	footer.layout	 .position { position:relative;}
+
+
+

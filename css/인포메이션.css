@@ -1,0 +1,109 @@
+
+#information {
+    width: 100%;
+    min-width: 500px;
+    max-width: 1919px;
+    height: 912px;
+    margin: 0 auto;
+    background-image: url('/images/02-메인.jpg');
+    position: relative;
+}
+
+.inforair {
+    position: absolute;
+    left: 40px;
+    top: 180px;
+    z-index: 6;
+}
+
+.information_title {
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    z-index: 10;
+}
+
+.info_links {
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    z-index: 5;
+    width: 100%;
+    height: 461px;
+}
+
+
+.info_links>a {
+    position: absolute;
+}
+
+.info_links>a:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.info_links>a:nth-child(2) {
+    top: 0;
+    left: 303px;
+}
+
+.info_links>a:nth-child(3) {
+    top: 0;
+    left: 455px;
+}
+
+.info_links>a:nth-child(4) {
+    top: 0;
+    left: 607px;
+}
+
+.info_links>a:nth-child(5) {
+    top: 0;
+    left: 910px;
+}
+
+.info_links>a:nth-child(6) {
+    top: 155px;
+    left: 0;
+}
+
+.info_links>a:nth-child(7) {
+    top: 155px;
+    left: 303px;
+}
+
+.info_links>a:nth-child(8) {
+    top: 155px;
+    left: 607px;
+}
+
+.info_links>a:nth-child(9) {
+    top: 155px;
+    left: 758px;
+}
+
+.info_links>a:nth-child(10) {
+    top: 311px;
+    left: 0;
+}
+
+.info_links>a:nth-child(11) {
+    top: 311px;
+    left: 156px;
+}
+
+.info_links>a:nth-child(12) {
+    top: 311px;
+    left: 607px;
+}
+
+.info_links>a:nth-child(13) {
+    top: 311px;
+    left: 910px;
+}
+
+.info_links>img {
+    display: block;
+    height: 151px;
+}
+

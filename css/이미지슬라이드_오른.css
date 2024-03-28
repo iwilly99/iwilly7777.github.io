@@ -1,0 +1,13 @@
+
+.frame{
+    width:300px;
+    overflow: hidden;
+}
+img{
+    width:300px;
+}
+/*film의 img들을 가로 정렬*/
+.film{
+    display: flex;
+    transition: all 0.7s;            
+}

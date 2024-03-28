@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.it9_ctl__selectother {float:left;color:#838383;line-height:16px;background:#fff}
+.it9_ctl__select01 {position:relative;z-index:1;float:left;font-weight:normal;min-width:37px;color:#838383;padding:5px 30px 5px 13%;height:18px;border:1px solid #cfcfcf;background:url("/res/images/sel_bg.jpg") no-repeat 80% 12px;text-decoration:none;cursor:pointer;}
+.it9_ctl__selectother02 {position:absolute;top:28px;left:0;z-index:999;}
+.it9_ctl__selectother ul {width:100%;float:left;border:1px solid #cfcfcf;background:#fff;}
+.it9_ctl__selectother ul li {float:left;width:74%;min-width:20px;padding:4px 13%;line-height:15px;color:#838383;font-weight:normal;text-align:left;}
+.it9_ctl__selectother ul a:hover li {color:#ffffff;background:#767676;}
+.it9_ctl__selectother ul a:active li {color:#ffffff;background:#767676;}
+
+
+.modal {
+display:none;position:fixed;z-index:1000;
+top:0;
+left:0;
+height:100%;
+width:100%;
+background: rgba( 255, 255, 255, .3 ) 
+url('/res/images/FhHRx.gif') 
+50% 50% 
+no-repeat;
+}
+
+body.loading {
+overflow: hidden;   
+}
+body.loading .modal {
+display: block;
+}

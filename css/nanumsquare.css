@@ -1,0 +1,57 @@
+/* 
+ * Nanum Square Web Fonts
+ * https://github.com/hiun/NanumSquare
+ * Copyright (c) 2010, NAVER Corporation (http://www.nhncorp.com) 
+ */
+
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/res/font/NanumSquareL.eot);
+  src: local('Nanum Square light'),
+       local('NanumSquareL'),
+       url(/res/font/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+       url(/res/font/NanumSquareL.woff2) format('woff2'),
+       url(/res/font/NanumSquareL.woff) format('woff'),
+       url(/res/font/NanumSquareL.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/res/font/NanumSquareR.eot);
+  src: local('Nanum Square Regular'),
+       local('NanumSquareR'),
+       url(/res/font/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+       url(/res/font/NanumSquareR.woff2) format('woff2'),
+       url(/res/font/NanumSquareR.woff) format('woff'),
+       url(/res/font/NanumSquareR.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: bold;
+  font-weight: 700;
+  src: url(/res/font/NanumSquareB.eot);
+  src: local('Nanum Square Bold'),
+       local('NanumSquareB'),
+       url(/res/font/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+       url(/res/font/NanumSquareB.woff2) format('woff2'),
+       url(/res/font/NanumSquareB.woff) format('woff'),
+       url(/res/font/NanumSquareB.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: normal;
+  font-weight: 900;
+  src: url(/res/font/NanumSquareEB.eot);
+  src: local('Nanum Square ExtraBold'),
+       local('NanumSquareEB'),
+       url(/res/font/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+       url(/res/font/NanumSquareEB.woff2) format('woff2'),
+       url(/res/font/NanumSquareEB.woff) format('woff'),
+       url(/res/font/NanumSquareEB.ttf) format('truetype');
+}

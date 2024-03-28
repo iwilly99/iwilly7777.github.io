@@ -1,0 +1,95 @@
+
+#Mainvisual3 {
+    width: 100%;
+    min-width: 1340px;
+    max-width: 1919px;
+    height: 940px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(/images/01-메인.jpg);
+    overflow: hidden;
+}
+
+.mv3_since {
+    position: absolute;
+    left: 88px;
+    top: 100px;
+    z-index: 5;
+}
+
+.mv3LeftTop {
+    position: absolute;
+    left: 88px;
+    top: 150px;
+    z-index: 5;
+}
+
+.mv3LeftTop>img {
+    display: block;
+    vertical-align: top;
+    margin-bottom: 13px;
+    transition: .2s linear;
+    transform: scale(1);
+}
+
+.mv3LeftTop>img.on {
+    transform: scale(1.1);
+}
+
+.mv3LeftTop>img:last-child {
+    margin-bottom: 0px;
+}
+
+.mv3_catchy {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -213px;
+    z-index: 2;
+    width: 800px;
+}
+
+.travelbanner {
+    position: absolute;
+    left: 88px;
+    top: 305px;
+    z-index: 1;
+}
+
+.nuri {
+    position: absolute;
+    left: 231px;
+    top: 305px;
+    z-index: 1;
+}
+
+.nice_banner {
+    position: absolute;
+    left: 88px;
+    top: 460px;
+    z-index: 1;
+}
+
+.rightcall {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: 5;
+}
+
+.right_quickbanner {
+    position: absolute;
+    right: 108px;
+    top: 97px;
+    z-index: 5;
+}
+
+
+
+
+.hd_pops_footer {
+    padding: 10px 0;
+    background: #33353E;
+    color: #A39B97;
+    text-align: right
+}
